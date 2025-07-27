@@ -73,3 +73,14 @@ Zorluklar:
 
 
 Model ilk haliyle temel bir pipeline sunmuştur. Ancak geliştirme adımları uygulanarak doğruluk, precision ve recall değerleri dengelenmelidir.
+*******************************
+masknew.py
+Classification Report:
+               precision    recall  f1-score   support
+
+   With Mask       0.32      0.03      0.05       745
+Without Mask       0.50      0.94      0.65       765
+
+    accuracy                           0.49      1510
+   macro avg       0.41      0.48      0.35      1510
+weighted avg       0.41      0.49      0.36      1510
